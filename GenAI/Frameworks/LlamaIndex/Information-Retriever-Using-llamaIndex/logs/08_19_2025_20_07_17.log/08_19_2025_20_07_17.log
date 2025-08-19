@@ -1,0 +1,4 @@
+[ 2025-08-19 20:07:24,597 ] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash "HTTP/1.1 200 OK"
+[ 2025-08-19 20:07:24,602 ] 6418 google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+[ 2025-08-19 20:07:28,813 ] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[ 2025-08-19 20:07:28,841 ] 6429 google_genai.models - INFO - AFC remote call 1 is done.

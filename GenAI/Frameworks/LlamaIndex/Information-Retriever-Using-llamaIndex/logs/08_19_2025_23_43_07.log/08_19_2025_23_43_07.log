@@ -1,0 +1,6 @@
+[ 2025-08-19 23:43:38,281 ] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro "HTTP/1.1 200 OK"
+[ 2025-08-19 23:43:47,347 ] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+[ 2025-08-19 23:43:51,147 ] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+[ 2025-08-19 23:43:51,676 ] 6418 google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+[ 2025-08-19 23:43:54,357 ] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+[ 2025-08-19 23:43:54,361 ] 6429 google_genai.models - INFO - AFC remote call 1 is done.

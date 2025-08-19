@@ -1,0 +1,9 @@
+setup.py
+Information__retrieval_app.egg-info/PKG-INFO
+Information__retrieval_app.egg-info/SOURCES.txt
+Information__retrieval_app.egg-info/dependency_links.txt
+Information__retrieval_app.egg-info/top_level.txt
+QApdf/__init__.py
+QApdf/data_ingestion.py
+QApdf/embedding.py
+QApdf/model_api.py

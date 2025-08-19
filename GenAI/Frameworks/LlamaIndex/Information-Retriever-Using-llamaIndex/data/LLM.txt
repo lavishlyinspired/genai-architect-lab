@@ -1,0 +1,126 @@
+2
+3,838 postdocs indicated a similar level of engagement with GenAI, particularly chatbots, with 31% of
+respondents reporting using chatbots (Nordling, 2023). One application of GenAI in particular, Large
+Language Models (LLMs) based applications such as ChatGPT, has seen very high uptake as they can assist
+with writing which is a component of different parts of the research process (Biswas, 2023; Formosa et al.,
+2024). Writing was already a task that was often undertaken with the help of tools such as Grammarly,
+Zotero, and Evernote, among others that helped improve grammar and sentence structure and assisted with
+citations (Alkhaqani, 2023). The use of LLMs has now allowed researchers to use a single application for
+multiple writing related tasks in conjunction with functions such as data exploration and analysis
+(Abdelhafiz et al., 2024).
+Although the use of GenAI for research is on the rise, the advantages of the technology are unclear and
+there is ambiguity about its potential benefits and as a consequence researchers are engaging with it
+cautiously (Nordling, 2023). One area of concern with the use of GenAI for research is how GenAI systems
+are developed. They are predictive models trained on extremely larger datasets and their output replicates
+and perpetuates any biases that exist in the training data. The initial models in particular had no access to
+external data to verify their outputs although this is changing with newer models post-GPT4 that have
+access to web searches and databases to retrieve verifiable sources. Still, the model itself still has no
+“knowledge” beyond the statistical regularities of its training data and the output is questionable. Van
+Noorden & Perkel (2023) found that while a large minority of researchers engaged with AI frequently and
+recognized benefits such as efficiency gains and improved accessibility for non-native English speakers,
+they expressed concerns about misinformation, largely due to inherent biased datasets used to train the
+LLM models (Yusuf et al., 2024; Biswas, 2023; Rowland, 2023). This concern with bias and false output
+is compounded by the fact that the output of GenAI applications looks quite coherent and plausible, leading
+to a lack of trust. Improper use of LLMs has also resulted in articles with hallucinations, that is, made up
+text such as fictional references and other factual inaccuracies. There are also concerns related to research
+data integrity and ownership of the generated contents (Morocco-Clarke et al., 2024; Xames and Shefa,
+2023). Therefore, validation of the output is critical and the researcher has to take responsibility for the use
+of GenAI. Data privacy and data protection are other concerns and it is important that researchers do not
+assume that any information they input or share with a GenAI tool is private or secure. There are many
+potential risks associated with inputting sensitive, private, confidential, or proprietary data into these tools,
+even when a university has a license for its use, and in addition to intellectual property issues, use of certain
+data might violate legal or contractual requirements, in addition to expectations for privacy (Al-kfairy et
+al., 2024). Finally, there are concerns both with authorship and peer review of scientific work as GenAI can
+produce high quality articles and abstracts which were hard to distinguish from human-authored text (Khlaif
+et al., 2023) and is abused by many scholars to produce reviews that are generic and lack specific feedback
+(Liang et al., 2024, pg. 10).
+2 Frameworks to Guide Use of GenAI for Academic Research
+As a consequence of the potential concerns with GenAI use, there is an acknowledgement within research
+communities that guardrails for research need to be developed and followed (Delios et al., 2024; Duah &
+McGivern, 2024) and academic researchers are being encouraged to be cautious while using AI generated
+content and evaluate the output quality and accuracy (Godwin et al., 2024; Frank et al., 2024; Rowland,
+2023). Initial guidance has come from HEIs, funding agencies, policy makers, and publishers, and stresses
+that GenAI should be seen as an assistant rather than a replacement for human effort such as critical
+3
+thinking, exploratory analysis, and writing skills (Xames and Shefa, 2023; Kiley, 2024; Harding and Boyd,
+2024); many publications clearly state that GenAI tools should not be listed as authors in scientific
+publication (Hsu, 2023; Abdelhafiz et al., 2024). As part of guidance being provided about the use of GenAI
+for research, certain frameworks have been advanced to map and understand the landscape. In particular,
+Smith et al. (2024) have advanced a strategic framework that an institution can use to map the stakeholders
+and activities and support responsible use of GenAI. This framework provides a comprehensive and
+systematic method to understand all the factors involved in the implementation of GenAI for research. Their
+framework is structured in four layers starting with Context at the top, followed by Development and
+Implementation layers, and ending with Review at the bottom. In between are Development and then
+Implementation layers. According to Smith et al., this is also the order in which different elements of the
+framework should generally be considered and implemented. The Context layer describes the external and
+internal policy environment that governs research integrity and research conduct and helps shape
+institutional responses to opportunities and risks posed by GenAI in research. The Development layer
+emphasizes the importance of developing a position statement to apply the principles of research integrity
+to the specific opportunities and challenges posed by GenAI. Implementation describes a plan to put the
+position statement into practice with appropriate support, processes and infrastructure. Finally, Review
+describes a plan to iteratively evaluate the framework to test its effectiveness and undertake revisions or
+updates to ensure currency. In our work, we were guided to understand the overall landscape through this
+framework and to examine what factors affect researchers directly and are covered by the guidance issued
+by institutions.
+Another relevant framework advanced by Al-kfairy et al. (2024) is based on a review of 37 articles that
+focused specifically on the use of GenAI for research. This paper identifies eight concerns, each with
+implication for the use of GenAI in research: Authorship and Academic Integrity; Intellectual Property and
+Copyright; Privacy, Trust, and Bias; Misinformation and Deepfakes; Educational Ethics; Transparency and
+Accountability; Authenticity and Attribution; and Social and Economic Impact. Al-kfairy et al. (2024)
+explain that according to the articles that were reviewed, misgivings about who has actually written a text,
+a human or AI, is a concern for academic integrity reasons and even questions of attribution. Similarly,
+production of text or visual by AI challenges notions of copyright and intellectual property as it is unclear
+what the new content was derived from and how to attribute the role of a machine in the creation. Data
+privacy, especially if personally identifiable data is entered into a GenAI application, remains a constant
+risk and so does the issue of lack of transparency around data training. The reviewed articles also raised
+concerns with the output of GenAI systems, especially misinformation and deliberate misuse to create
+deepfakes, risking privacy and identify theft. The impact of GenAI on education was another specific
+domain related theme that emerged from the analysis raising an alert not only for increased plagiarism but
+decline in critical thinking and problem-solving skills. Lack of transparency due to algorithmic opacity was
+another concern that was addressed by the papers as a lack of transparency not only results in systemic bias
+and increase in discrimination, it also effects accountability and biases can go unchecked, reinforcing
+existing inequalities. Finally, a broader concern that emerged from the review focused on GenAI’s ability
+to alter the landscape of work and labor, shape public discourse, and lead to the creation of regulations and
+law.
+Finally, Lin (2024), in a recent paper in this journal, argues that there is a need to bridge the gap between
+abstract principles related to GenAI use of research and the everyday practices of researchers. He outlines
+9
+Most guidelines expressed concerns about GenAI outputs. Under the code “GenAI Output Considerations”
+(N=27, 90%), we identified subcodes for the following: “Biased Output,” “Fabricated Output,” “Inaccurate
+Output,” “Knowledge Cutoff Date,” “Plagiarism,” and “Other.” See Table 2 for more details. We found
+that all guidelines mentioned “Inaccurate Output” (N=27, 100%) as a concern, followed by “Plagiarism”
+(N=24, 89%), “Biased Output” (N=23, 85%), and “Fabricated Output” (N=16, 59%). A few of the
+guidelines also referred to last date of data collection to train the system or “Knowledge Cutoff Date” (N=7,
+26%) and those that captured other types of output “Other” (N=11, 41%).
+Some guidelines elaborated on their concerns about “Fabricated Output” describing a phenomenon known
+as “hallucinations.” GenAI has been known to generate output that is either inaccurate, entirely fabricated,
+or biased but presented as if it were factual, often referred to as “AI hallucinations.” This can introduce
+risks to researchers when producing unique findings, such as falsified information and inaccurate
+conclusions (Table 3, (i)). Another ethical issue that was touched on under “Plagiarism” was that GenAI
+output can be viewed as plagiarism when the output generated is not properly cited or citations are missing
+completely (Table 3, (ii)). Another aspect considered with regard to GenAI outputs under the code
+“Knowledge Cutoff Date” is that they may be limited when attempting to answer questions about current
+events. This is because GenAI models are trained on historical data and may be limited in terms of providing
+up-to-date information, also known as having a knowledge cutoff date (Table 3, (iii)). Regarding “Other”
+types of GenAI output mentioned, some of these outputs could include information that presents risks or
+consequences if used in publishing research (Table 3, (iv)).
+Those we coded as “GenAI Input Considerations” (N=26, 87%), emphasized what types of data should not
+be entered into GenAI tools, as they may violate certain data governance regulations, as well as data privacy
+concerns. This code included the following subcodes: “Operational Data,” “Human Subjects Data,”
+personally identifiable information or “PII,” “Proprietary Data,” “Unpublished Research,” and “Other.” See
+Table 2 above for more detail about the codes.
+A majority of guidelines that considered outputs mentioned “PII” (N=18, 69%) and “Unpublished
+Research” (N=17, 65%); almost half mentioned “Proprietary Data” (N=12, 46%), and about a third
+mentioned “Human Subjects Data” (N=10, 38%), followed by “Operational Data” (N=8, 31%). In general,
+guidelines emphasized risks associated with inputting sensitive data into GenAI tools for individuals or
+organizations if their information was exposed, as well as potential breach of non-public research data. A
+common concern involved entering PII into GenAI tools, which could inadvertently lead to the exposure
+of individuals’ personal information if GenAI were to be trained using those outputs. This was viewed as a
+potential violation of various federal and international data privacy laws (e.g., HIPAA, FERPA, GDPR,
+etc.) (Table 3, (v)).
+One guideline emphasized the risk of unpublished research data, arguing that entering this type of data
+could lead to a breach of confidentiality (Table 3, (vi)). Another set of guidelines expressed concern about
+entering proprietary data into GenAI tools, saying that this could lead to various legal implications, which
+are discussed in the Legal Implications with the use of GenAI findings (Table 3, (vii)).
+Some guidelines were also concerned with the entry of human subjects data into GenAI tools because it
+can lead to a similar issue with PII in which supposedly anonymized data can be re-identified, violating

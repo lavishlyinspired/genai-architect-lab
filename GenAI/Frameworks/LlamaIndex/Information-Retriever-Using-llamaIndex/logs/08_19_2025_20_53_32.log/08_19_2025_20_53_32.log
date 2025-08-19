@@ -1,0 +1,1 @@
+[ 2025-08-19 20:53:43,384 ] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash "HTTP/1.1 200 OK"
