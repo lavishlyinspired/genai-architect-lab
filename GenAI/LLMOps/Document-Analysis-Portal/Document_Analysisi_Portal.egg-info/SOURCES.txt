@@ -1,6 +1,0 @@
-README.md
-setup.py
-Document_Analysisi_Portal.egg-info/PKG-INFO
-Document_Analysisi_Portal.egg-info/SOURCES.txt
-Document_Analysisi_Portal.egg-info/dependency_links.txt
-Document_Analysisi_Portal.egg-info/top_level.txt
