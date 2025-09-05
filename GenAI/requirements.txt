@@ -18,3 +18,14 @@ llama-index-vector-stores-faiss
 llama-index-llms-google-genai
 llama-index-embeddings-google-genai
 langchain_openai
+langchain
+python-dotenv
+ipykernel
+langchain_groq
+langchain_google_genai
+langchain_community
+pypdf
+faiss-cpu
+structlog
+PyMuPDF
+
