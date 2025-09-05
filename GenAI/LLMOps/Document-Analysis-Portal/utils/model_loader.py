@@ -22,10 +22,10 @@ class ModelLoader:
             
         success = load_dotenv()   # returns True if a .env file was found and loaded
 
-        if success:
-            print("✅ .env file loaded successfully")
-        else:
-            print("⚠️ No .env file found or failed to load")
+        # if success:
+        #     print("✅ .env file loaded successfully")
+        # else:
+        #     print("⚠️ No .env file found or failed to load")
         self._validate_env()
         self.config=load_config()
         log.info("Configuration loaded successfully", config_keys=list(self.config.keys()))
@@ -35,7 +35,7 @@ class ModelLoader:
         Validate necessary environment variables.
         Ensure API keys exist.
         """
-        print("✅ Loading environment variables...............................................")
+        # print("✅ Loading environment variables...............................................")
         required_vars=["GOOGLE_API_KEY","GROQ_API_KEY"]
         self.api_keys={key:os.getenv(key) for key in required_vars}
         missing = [k for k, v in self.api_keys.items() if not v]
