@@ -2,4 +2,6 @@ Metadata-Version: 2.4
 Name: Document-Analysisi-Portal
 Version: 0.1
 Author: Akash
+Requires-Dist: structlog
 Dynamic: author
+Dynamic: requires-dist

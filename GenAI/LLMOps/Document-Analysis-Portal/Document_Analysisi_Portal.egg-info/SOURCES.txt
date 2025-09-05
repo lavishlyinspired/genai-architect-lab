@@ -3,8 +3,13 @@ setup.py
 Document_Analysisi_Portal.egg-info/PKG-INFO
 Document_Analysisi_Portal.egg-info/SOURCES.txt
 Document_Analysisi_Portal.egg-info/dependency_links.txt
+Document_Analysisi_Portal.egg-info/requires.txt
 Document_Analysisi_Portal.egg-info/top_level.txt
 exception/__init__.py
 exception/custom_exception.py
 logger/__init__.py
 logger/custom_logger.py
+utils/__init__.py
+utils/config_loader.py
+utils/model_loader copy.py
+utils/model_loader.py
