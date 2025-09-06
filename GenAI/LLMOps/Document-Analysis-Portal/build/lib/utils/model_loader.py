@@ -9,29 +9,41 @@ from langchain_groq import ChatGroq
 #from langchain_openai import ChatOpenAI
 from logger.custom_logger import CustomLogger
 from exception.custom_exception import DocumentPortalException
-
 log = CustomLogger().get_logger(__name__)
 
 class ModelLoader:
+    
+    """
+    A utility class to load embedding models and LLM models.
+    """
+    
     def __init__(self):
+        
+            
+        success = load_dotenv()   # returns True if a .env file was found and loaded
+
+        # if success:
+        #     print("✅ .env file loaded successfully")
+        # else:
+        #     print("⚠️ No .env file found or failed to load")
         self._validate_env()
-        self.config = load_config()
+        self.config=load_config()
         log.info("Configuration loaded successfully", config_keys=list(self.config.keys()))
-
+        
     def _validate_env(self):
-            """
-            Validate necessary environment variables.
-            Ensure API keys exist.
-            """
-            required_vars=["GOOGLE_API_KEY","GROQ_API_KEY"]
-            self.api_keys={key:os.getenv(key) for key in required_vars}
-            missing = [k for k, v in self.api_keys.items() if not v]
-            if missing:
-                log.error("Missing environment variables", missing_vars=missing)
-                raise DocumentPortalException("Missing environment variables", sys)
-            log.info("Environment variables validated", available_keys=[k for k in self.api_keys if self.api_keys[k]])
-                    
-
+        """
+        Validate necessary environment variables.
+        Ensure API keys exist.
+        """
+        # print("✅ Loading environment variables...............................................")
+        required_vars=["GOOGLE_API_KEY","GROQ_API_KEY"]
+        self.api_keys={key:os.getenv(key) for key in required_vars}
+        missing = [k for k, v in self.api_keys.items() if not v]
+        if missing:
+            log.error("Missing environment variables ....", missing_vars=missing)
+            raise DocumentPortalException("Missing environment variables....", sys)
+        log.info("Environment variables validated", available_keys=[k for k in self.api_keys if self.api_keys[k]])
+        
     def load_embeddings(self):
         """
         Load and return the embedding model.
@@ -43,7 +55,7 @@ class ModelLoader:
         except Exception as e:
             log.error("Error loading embedding model", error=str(e))
             raise DocumentPortalException("Failed to load embedding model", sys)
-
+        
     def load_llm(self):
         """
         Load and return the LLM model.
@@ -82,12 +94,20 @@ class ModelLoader:
                 temperature=temperature,
             )
             return llm
-       
+            
+        # elif provider == "openai":
+        #     return ChatOpenAI(
+        #         model=model_name,
+        #         api_key=self.api_keys["OPENAI_API_KEY"],
+        #         temperature=temperature,
+        #         max_tokens=max_tokens
+        #     )
         else:
             log.error("Unsupported LLM provider", provider=provider)
             raise ValueError(f"Unsupported LLM provider: {provider}")
         
-  
+    
+    
 if __name__ == "__main__":
     loader = ModelLoader()
     

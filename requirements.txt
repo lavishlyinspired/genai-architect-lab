@@ -28,4 +28,6 @@ pypdf
 faiss-cpu
 structlog
 PyMuPDF
+fastapi
+utils.file_io
 

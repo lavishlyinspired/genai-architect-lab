@@ -9,7 +9,19 @@ exception/__init__.py
 exception/custom_exception.py
 logger/__init__.py
 logger/custom_logger.py
+prompt/__init__.py
+prompt/prompt_library.py
+src/__init__.py
+src/document_analyzer/__init__.py
+src/document_analyzer/data_analysis.py
+src/document_chat/__init__.py
+src/document_chat/retrieval.py
+src/document_compare/__init__.py
+src/document_compare/document_comparator.py
+src/document_compare/document_ingestion.py
+src/document_ingestion/__init__.py
+src/document_ingestion/data_ingestion.py
 utils/__init__.py
 utils/config_loader.py
-utils/model_loader copy.py
+utils/file_io.py
 utils/model_loader.py
