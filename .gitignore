@@ -2,3 +2,6 @@
 .genaienv
 RAG
 H:\akash\git\genai-architect-lab\GenAI\LLMOps\Document-Analysis-Portal\.env
+H:\akash\git\genai-architect-lab\GenAI\LLMOps\Document-Analysis-Portal\logs
+H:\akash\git\genai-architect-lab\GenAI\LLMOps\Document-Analysis-Portal\Document_Analysisi_Portal.egg-info
+F:\Tutorials\FinalRepo\5. LLMOps\code\document_portal\dockercommands

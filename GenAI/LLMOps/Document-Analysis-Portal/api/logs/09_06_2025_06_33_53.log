@@ -41,3 +41,86 @@ Successfully loaded faiss with AVX2 support.
 {"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:05:24.313889Z", "level": "info", "event": "Loading LLM"}
 {"timestamp": "2025-09-06T01:05:24.324425Z", "level": "info", "event": "DocumentAnalyzer initialized successfully"}
 {"timestamp": "2025-09-06T01:05:24.324878Z", "level": "info", "event": "Meta-data analysis chain initialized"}
+{"keys": ["Summary", "Title", "Author", "DateCreated", "LastModifiedDate", "Publisher", "Language", "PageCount", "SentimentTone"], "timestamp": "2025-09-06T01:05:27.674712Z", "level": "info", "event": "Metadata extraction successful"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:41:59.980486Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:41:59.996414Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:41:59.997854Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:41:59.999659Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:42:00.060276Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:42:00.061736Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:42:00.064176Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:42:00.077560Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:42:00.078562Z", "level": "info", "event": "Loading embedding model..."}
+{"error": "Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\\a\\faiss-wheels\\faiss-wheels\\third-party\\faiss\\faiss\\impl\\io.cpp:70: Error: 'f' failed: could not open faiss_index\\index.faiss for reading: No such file or directory", "timestamp": "2025-09-06T01:42:00.422965Z", "level": "error", "event": "Failed to load retriever from FAISS"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:42:17.359635Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:42:17.368661Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_071217_2104e068", "temp_dir": "data", "faiss_dir": "faiss_index", "sessionized": false, "timestamp": "2025-09-06T01:42:17.371800Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "sample.pdf", "saved_as": "data\\db04f24b.pdf", "timestamp": "2025-09-06T01:42:17.453536Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 77, "timestamp": "2025-09-06T01:42:29.535116Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 342, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:42:29.576114Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:42:29.577307Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index", "timestamp": "2025-09-06T01:42:50.073743Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:43:21.164145Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:43:21.176447Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:43:21.177641Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:43:21.178445Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:43:21.193007Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:43:21.193645Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:43:21.196096Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:43:21.205524Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:43:21.206147Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": null, "timestamp": "2025-09-06T01:43:21.306379Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index", "index_name": "index", "k": 5, "session_id": null, "timestamp": "2025-09-06T01:43:21.403560Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": null, "user_input": "What is ghost attention?", "answer_preview": "Ghost Attention (GAtt) is a method inspired by Context Distillation that hacks the fine-tuning data to help the attention focus in a multi-stage proce", "timestamp": "2025-09-06T01:43:25.222689Z", "level": "info", "event": "Chain invoked successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:44:28.131180Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:44:28.140714Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:44:28.142888Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:44:28.144968Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:44:28.150771Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:44:28.153391Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:44:28.156413Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:44:28.163527Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:44:28.164126Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": null, "timestamp": "2025-09-06T01:44:28.183660Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index", "index_name": "index", "k": 5, "session_id": null, "timestamp": "2025-09-06T01:44:28.185052Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": null, "user_input": "What is ghost attention?", "answer_preview": "Ghost Attention (GAtt) is a method inspired by Context Distillation that hacks the fine-tuning data to help the attention focus in a multi-stage proce", "timestamp": "2025-09-06T01:44:33.241590Z", "level": "info", "event": "Chain invoked successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:44:40.655853Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:44:40.664099Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:44:40.671234Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:44:40.674736Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:44:40.690236Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:44:40.691623Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:44:40.693611Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:44:40.708574Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:44:40.710443Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": null, "timestamp": "2025-09-06T01:44:40.737533Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index", "index_name": "index", "k": 5, "session_id": null, "timestamp": "2025-09-06T01:44:40.742972Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": null, "user_input": "What is ghost attention?", "answer_preview": "Ghost Attention (GAtt) is a method inspired by Context Distillation that hacks the fine-tuning data to help the attention focus in a multi-stage proce", "timestamp": "2025-09-06T01:44:45.572892Z", "level": "info", "event": "Chain invoked successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:45:31.043821Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:45:31.048720Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_071531_753a9831", "temp_dir": "data", "faiss_dir": "faiss_index", "sessionized": false, "timestamp": "2025-09-06T01:45:31.057628Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "sample.pdf", "saved_as": "data\\37d714a0.pdf", "timestamp": "2025-09-06T01:45:31.080909Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 77, "timestamp": "2025-09-06T01:45:43.710127Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 342, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:45:43.737258Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:45:43.750279Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index", "timestamp": "2025-09-06T01:45:45.560000Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:46:12.832069Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:46:12.838511Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_071612_b7fe0cc5", "temp_dir": "data\\session_20250906_071612_b7fe0cc5", "faiss_dir": "faiss_index\\session_20250906_071612_b7fe0cc5", "sessionized": true, "timestamp": "2025-09-06T01:46:12.849197Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "sample.pdf", "saved_as": "data\\session_20250906_071612_b7fe0cc5\\959e75d0.pdf", "timestamp": "2025-09-06T01:46:12.882007Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 77, "timestamp": "2025-09-06T01:46:24.678717Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 342, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:46:24.697072Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:46:24.698478Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index\\session_20250906_071612_b7fe0cc5", "timestamp": "2025-09-06T01:46:45.505895Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:46:54.811595Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:46:54.819136Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:46:54.824324Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:46:54.826949Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20250906_071612_b7fe0cc5", "timestamp": "2025-09-06T01:46:54.833947Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20250906_071612_b7fe0cc5", "timestamp": "2025-09-06T01:46:54.840823Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:46:54.843252Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:46:54.858089Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:46:54.859928Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": "session_20250906_071612_b7fe0cc5", "timestamp": "2025-09-06T01:46:54.923486Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index\\session_20250906_071612_b7fe0cc5", "index_name": "index", "k": 5, "session_id": "session_20250906_071612_b7fe0cc5", "timestamp": "2025-09-06T01:46:54.923993Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20250906_071612_b7fe0cc5", "user_input": "What is ghost attention?", "answer_preview": "Ghost Attention (GAtt) is a method inspired by Context Distillation that hacks the fine-tuning data to help the attention focus in a multi-stage proce", "timestamp": "2025-09-06T01:46:59.757997Z", "level": "info", "event": "Chain invoked successfully"}

@@ -1,0 +1,210 @@
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:48:09.795408Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:48:09.808884Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_071809_c2e57370", "temp_dir": "data\\session_20250906_071809_c2e57370", "faiss_dir": "faiss_index\\session_20250906_071809_c2e57370", "sessionized": true, "timestamp": "2025-09-06T01:48:09.824884Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "Long_Report_V1.pdf", "saved_as": "data\\session_20250906_071809_c2e57370\\30d4ba92.pdf", "timestamp": "2025-09-06T01:48:09.836952Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T01:48:10.077016Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:48:10.078089Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:48:10.080027Z", "level": "info", "event": "Loading embedding model..."}
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+{"added": 1, "index": "faiss_index\\session_20250906_071809_c2e57370", "timestamp": "2025-09-06T01:48:12.430781Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:50:13.088934Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:50:13.097493Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_072013_753c3d45", "temp_dir": "data\\session_20250906_072013_753c3d45", "faiss_dir": "faiss_index\\session_20250906_072013_753c3d45", "sessionized": true, "timestamp": "2025-09-06T01:50:13.100670Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "Long_Report_V1.pdf", "saved_as": "data\\session_20250906_072013_753c3d45\\c2363c21.pdf", "timestamp": "2025-09-06T01:50:13.113128Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T01:50:13.128340Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:50:13.141461Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:50:13.146954Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index\\session_20250906_072013_753c3d45", "timestamp": "2025-09-06T01:50:15.456937Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:50:31.289836Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:50:31.298318Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:50:31.301077Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:50:31.301953Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:50:31.341322Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:50:31.342551Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:50:31.347082Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:50:31.364538Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:50:31.374424Z", "level": "info", "event": "Loading embedding model..."}
+{"error": "Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\\a\\faiss-wheels\\faiss-wheels\\third-party\\faiss\\faiss\\impl\\io.cpp:70: Error: 'f' failed: could not open faiss_index\\index.faiss for reading: No such file or directory", "timestamp": "2025-09-06T01:50:31.387280Z", "level": "error", "event": "Failed to load retriever from FAISS"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:50:43.927165Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:50:43.938914Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:50:43.941453Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:50:43.949376Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20250906_072013_753c3d45", "timestamp": "2025-09-06T01:50:43.960142Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20250906_072013_753c3d45", "timestamp": "2025-09-06T01:50:43.967609Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:50:43.970600Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:50:43.981223Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:50:43.984608Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": "session_20250906_072013_753c3d45", "timestamp": "2025-09-06T01:50:44.034413Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index\\session_20250906_072013_753c3d45", "index_name": "index", "k": 5, "session_id": "session_20250906_072013_753c3d45", "timestamp": "2025-09-06T01:50:44.036116Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20250906_072013_753c3d45", "user_input": "What is this document about?", "answer_preview": "This document is a product stability report for AB-123, batch BATCH-001. It details the stability of the product over a 6-month period under specific ", "timestamp": "2025-09-06T01:50:49.386933Z", "level": "info", "event": "Chain invoked successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:52:01.261216Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:52:01.274703Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:52:01.275751Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:52:01.277095Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:52:01.286309Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:52:01.287871Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:52:01.290358Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:52:01.308502Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:52:01.312888Z", "level": "info", "event": "Loading embedding model..."}
+{"error": "Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\\a\\faiss-wheels\\faiss-wheels\\third-party\\faiss\\faiss\\impl\\io.cpp:70: Error: 'f' failed: could not open faiss_index\\index.faiss for reading: No such file or directory", "timestamp": "2025-09-06T01:52:01.319037Z", "level": "error", "event": "Failed to load retriever from FAISS"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:52:11.736573Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:52:11.748139Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_072211_e9a33b89", "temp_dir": "data", "faiss_dir": "faiss_index", "sessionized": false, "timestamp": "2025-09-06T01:52:11.749689Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "Long_Report_V1.pdf", "saved_as": "data\\6e4167c4.pdf", "timestamp": "2025-09-06T01:52:11.759441Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T01:52:11.779503Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:52:11.783991Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:52:11.786688Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index", "timestamp": "2025-09-06T01:52:14.071940Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:52:22.012858Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:52:22.022354Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:52:22.025589Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:52:22.028750Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:52:22.035473Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:52:22.039901Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:52:22.043084Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:52:22.064745Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:52:22.066646Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": null, "timestamp": "2025-09-06T01:52:22.124320Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index", "index_name": "index", "k": 5, "session_id": null, "timestamp": "2025-09-06T01:52:22.125106Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": null, "user_input": "What is this document about?", "answer_preview": "This document is a product stability report for AB-123, batch BATCH-001. The report concludes that the product remains stable under the recommended st", "timestamp": "2025-09-06T01:52:26.998211Z", "level": "info", "event": "Chain invoked successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:52:36.528948Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:52:36.536407Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:52:36.544219Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:52:36.547325Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:52:36.557819Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:52:36.560740Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:52:36.563457Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:52:36.572894Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:52:36.574157Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": null, "timestamp": "2025-09-06T01:52:36.584223Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index", "index_name": "index", "k": 5, "session_id": null, "timestamp": "2025-09-06T01:52:36.586563Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": null, "user_input": "What is this document about?", "answer_preview": "This document is a product stability report for AB-123, batch BATCH-001. It details the stability of the product over a 6-month period under specific ", "timestamp": "2025-09-06T01:52:41.548685Z", "level": "info", "event": "Chain invoked successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:52:45.340547Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:52:45.349130Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:52:45.354852Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:52:45.361386Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:52:45.392854Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:52:45.393509Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:52:45.395379Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:52:45.410282Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:52:45.411584Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": null, "timestamp": "2025-09-06T01:52:45.427476Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index", "index_name": "index", "k": 5, "session_id": null, "timestamp": "2025-09-06T01:52:45.427564Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": null, "user_input": "What is this document about?", "answer_preview": "This document is a product stability report for AB-123, batch BATCH-001. The report concludes that the product remains stable under the recommended st", "timestamp": "2025-09-06T01:52:50.482649Z", "level": "info", "event": "Chain invoked successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:52:59.276008Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:52:59.284425Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_072259_7b2f7d19", "temp_dir": "data", "faiss_dir": "faiss_index", "sessionized": false, "timestamp": "2025-09-06T01:52:59.286191Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "Long_Report_V2.pdf", "saved_as": "data\\cee07f6d.pdf", "timestamp": "2025-09-06T01:52:59.288341Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T01:52:59.304131Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:52:59.319163Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:52:59.344512Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index", "timestamp": "2025-09-06T01:53:01.144124Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:53:03.424063Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:53:03.437422Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_072303_bdf96d2a", "temp_dir": "data\\session_20250906_072303_bdf96d2a", "faiss_dir": "faiss_index\\session_20250906_072303_bdf96d2a", "sessionized": true, "timestamp": "2025-09-06T01:53:03.439961Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "Long_Report_V2.pdf", "saved_as": "data\\session_20250906_072303_bdf96d2a\\59fc89fa.pdf", "timestamp": "2025-09-06T01:53:03.454274Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T01:53:03.468800Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:53:03.470596Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:53:03.487729Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index\\session_20250906_072303_bdf96d2a", "timestamp": "2025-09-06T01:53:05.800804Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:53:06.639481Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:53:06.652799Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_072306_a896e8c8", "temp_dir": "data\\session_20250906_072306_a896e8c8", "faiss_dir": "faiss_index\\session_20250906_072306_a896e8c8", "sessionized": true, "timestamp": "2025-09-06T01:53:06.658651Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "Long_Report_V2.pdf", "saved_as": "data\\session_20250906_072306_a896e8c8\\b14cb895.pdf", "timestamp": "2025-09-06T01:53:06.666703Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T01:53:06.685817Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:53:06.688132Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:53:06.691893Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index\\session_20250906_072306_a896e8c8", "timestamp": "2025-09-06T01:53:08.988632Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:53:23.898661Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:53:23.906604Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_072323_3e1c4889", "temp_dir": "data\\session_20250906_072323_3e1c4889", "faiss_dir": "faiss_index\\session_20250906_072323_3e1c4889", "sessionized": true, "timestamp": "2025-09-06T01:53:23.908982Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "Long_Report_V2.pdf", "saved_as": "data\\session_20250906_072323_3e1c4889\\26803954.pdf", "timestamp": "2025-09-06T01:53:23.912732Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T01:53:23.932366Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:53:23.943777Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:53:23.945947Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index\\session_20250906_072323_3e1c4889", "timestamp": "2025-09-06T01:53:26.247069Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:53:30.074906Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:53:30.090371Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:53:30.093192Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:53:30.093824Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20250906_072323_3e1c4889", "timestamp": "2025-09-06T01:53:30.099652Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20250906_072323_3e1c4889", "timestamp": "2025-09-06T01:53:30.113140Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:53:30.116551Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:53:30.128814Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:53:30.129416Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": "session_20250906_072323_3e1c4889", "timestamp": "2025-09-06T01:53:30.191424Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index\\session_20250906_072323_3e1c4889", "index_name": "index", "k": 5, "session_id": "session_20250906_072323_3e1c4889", "timestamp": "2025-09-06T01:53:30.192054Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20250906_072323_3e1c4889", "user_input": "What is this document about?", "answer_preview": "This document is a product stability report for AB-123, batch BATCH-001, showing it remains stable under recommended storage conditions based on a 6-m", "timestamp": "2025-09-06T01:53:35.050461Z", "level": "info", "event": "Chain invoked successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:55:22.816395Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:55:22.832638Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_072522_a269724e", "temp_dir": "data\\session_20250906_072522_a269724e", "faiss_dir": "faiss_index\\session_20250906_072522_a269724e", "sessionized": true, "timestamp": "2025-09-06T01:55:22.836044Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "test.txt", "saved_as": "data\\session_20250906_072522_a269724e\\82888ac2.txt", "timestamp": "2025-09-06T01:55:22.841333Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T01:55:22.872188Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:55:22.875921Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:55:22.882353Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index\\session_20250906_072522_a269724e", "timestamp": "2025-09-06T01:55:25.135434Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:56:29.756289Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:56:29.765638Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_072629_46455161", "temp_dir": "data", "faiss_dir": "faiss_index", "sessionized": false, "timestamp": "2025-09-06T01:56:29.766743Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "test.txt", "saved_as": "data\\383a9f23.txt", "timestamp": "2025-09-06T01:56:29.769380Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T01:56:29.777539Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:56:29.784137Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:56:29.787098Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index", "timestamp": "2025-09-06T01:56:32.074058Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:56:40.605171Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:56:40.618536Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:56:40.628752Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:56:40.630520Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:56:40.641235Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:56:40.648998Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:56:40.652947Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:56:40.663095Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:56:40.666572Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": null, "timestamp": "2025-09-06T01:56:40.722148Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index", "index_name": "index", "k": 5, "session_id": null, "timestamp": "2025-09-06T01:56:40.722266Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": null, "user_input": "what is my name?", "answer_preview": "Your name is Akash.", "timestamp": "2025-09-06T01:56:45.552514Z", "level": "info", "event": "Chain invoked successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:57:50.045703Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:57:50.055337Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_072750_95b166f0", "temp_dir": "data", "faiss_dir": "faiss_index", "sessionized": false, "timestamp": "2025-09-06T01:57:50.061471Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "test.txt", "saved_as": "data\\cb589cea.txt", "timestamp": "2025-09-06T01:57:50.065445Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T01:57:50.082846Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T01:57:50.087601Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T01:57:50.098787Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index", "timestamp": "2025-09-06T01:57:52.009628Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:58:52.016657Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:58:52.022645Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:58:52.030805Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-09-06T01:58:52.031422Z", "level": "info", "event": "Loading LLM"}
+{"session_id": null, "timestamp": "2025-09-06T01:58:52.044512Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": null, "timestamp": "2025-09-06T01:58:52.049509Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T01:58:52.052512Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T01:58:52.061515Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-09-06T01:58:52.066370Z", "level": "info", "event": "Loading embedding model..."}
+{"session_id": null, "timestamp": "2025-09-06T01:58:52.073878Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index", "index_name": "index", "k": 5, "session_id": null, "timestamp": "2025-09-06T01:58:52.074393Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": null, "user_input": "what do i like?", "answer_preview": "You like to play Table tennis.", "timestamp": "2025-09-06T01:58:56.580951Z", "level": "info", "event": "Chain invoked successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T02:03:40.482434Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T02:03:40.488975Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_073340_220b3b6e", "temp_dir": "data", "faiss_dir": "faiss_index", "sessionized": false, "timestamp": "2025-09-06T02:03:40.499811Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "test.txt", "saved_as": "data\\2e5be14f.txt", "timestamp": "2025-09-06T02:03:40.502222Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T02:03:40.537664Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T02:03:40.548763Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T02:03:40.552804Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index", "timestamp": "2025-09-06T02:03:42.398695Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T02:03:46.733059Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T02:03:46.743178Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_073346_daeca0a0", "temp_dir": "data", "faiss_dir": "faiss_index", "sessionized": false, "timestamp": "2025-09-06T02:03:46.744435Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "test.txt", "saved_as": "data\\0e55119b.txt", "timestamp": "2025-09-06T02:03:46.748991Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T02:03:46.752635Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T02:03:46.753688Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T02:03:46.814254Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index", "timestamp": "2025-09-06T02:03:48.646067Z", "level": "info", "event": "FAISS index updated"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T02:03:52.392348Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-06T02:03:52.401073Z", "level": "info", "event": "Configuration loaded successfully"}
+{"session_id": "session_20250906_073352_5700a7b9", "temp_dir": "data", "faiss_dir": "faiss_index", "sessionized": false, "timestamp": "2025-09-06T02:03:52.402812Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "test.txt", "saved_as": "data\\042891bf.txt", "timestamp": "2025-09-06T02:03:52.414560Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 1, "timestamp": "2025-09-06T02:03:52.421255Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 1, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-09-06T02:03:52.429857Z", "level": "info", "event": "Documents split"}
+{"timestamp": "2025-09-06T02:03:52.465333Z", "level": "info", "event": "Loading embedding model..."}
+{"added": 1, "index": "faiss_index", "timestamp": "2025-09-06T02:03:54.372054Z", "level": "info", "event": "FAISS index updated"}
