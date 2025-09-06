@@ -1,5 +1,0 @@
-{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-05T23:43:07.029995Z", "level": "info", "event": "Environment variables validated"}
-{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-09-05T23:43:07.039073Z", "level": "info", "event": "Configuration loaded successfully"}
-{"temp_base": "data\\multi_doc_chat", "faiss_base": "faiss_index", "session_id": "session_20250905_234307_05530643", "temp_path": "data\\multi_doc_chat\\session_20250905_234307_05530643", "faiss_path": "faiss_index\\session_20250905_234307_05530643", "timestamp": "2025-09-05T23:43:07.040803Z", "level": "info", "event": "DocumentIngestor initialized"}
-{"filename": "data\\multi_doc_chat\\market_analysis_report.docx", "saved_as": "data\\multi_doc_chat\\session_20250905_234307_05530643\\a9c7b118.docx", "session_id": "session_20250905_234307_05530643", "timestamp": "2025-09-05T23:43:07.042200Z", "level": "info", "event": "File saved for ingestion"}
-{"error": "No module named 'docx2txt'", "timestamp": "2025-09-05T23:43:07.045866Z", "level": "error", "event": "Failed to ingest files"}

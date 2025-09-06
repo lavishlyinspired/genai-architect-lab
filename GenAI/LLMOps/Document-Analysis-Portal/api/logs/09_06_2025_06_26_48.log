@@ -1,0 +1,2 @@
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T00:56:56.462023Z", "level": "info", "event": "Environment variables validated"}
+{"error": "[Errno 2] No such file or directory: 'config\\\\config.yaml'", "timestamp": "2025-09-06T00:56:56.468284Z", "level": "error", "event": "Failed to initialize ChatIngestor"}

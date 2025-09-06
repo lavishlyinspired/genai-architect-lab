@@ -1,0 +1,2 @@
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-09-06T00:59:06.389346Z", "level": "info", "event": "Environment variables validated"}
+{"error": "Config file not found: H:\\akash\\git\\genai-architect-lab\\.genaienv\\Lib\\site-packages\\config\\config.yaml", "timestamp": "2025-09-06T00:59:06.397509Z", "level": "error", "event": "Failed to initialize ChatIngestor"}
