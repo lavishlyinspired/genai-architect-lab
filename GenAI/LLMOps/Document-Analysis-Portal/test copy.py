@@ -6,7 +6,7 @@ from src.document_analyzer.data_analysis import DocumentAnalyzer  # Your Documen
 # Path to the PDF you want to test
 PDF_PATH = r"H:\\akash\\git\\genai-architect-lab\\GenAI\\LLMOps\\Document-Analysis-Portal\\data\\document_analysis\\sample.pdf"
 
-# Dummy file wrapper to simulate uploaded file (Streamlit style)
+# Dummy file wrapper to simulate uploaded file (Streamlit style)a
 class DummyFile:
     def __init__(self, file_path):
         self.name = Path(file_path).name

@@ -1,7 +1,13 @@
-# .github/workflows/ci.yml
-name: Run Unit Tests
+name: Run Unit Tests3
 
-on: [push, pull_request]
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   test:
