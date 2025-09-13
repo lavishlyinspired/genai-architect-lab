@@ -1,0 +1,27 @@
+venv
+.env
+.pdf
+H:\akash\git\RAG-Techniques\3-VectorStoreDB\.env
+H:\akash\git\RAG-Techniques\.gitignore
+0-DataIngestParsing\1-langchain-document-components.svg
+0-DataIngestParsing\rag-architecture-diagram.svg
+H:\akash\git\RAG-Techniques\4. ChunkingStrategies\33-Semantic+Chunking.pdf
+H:\akash\git\RAG-Techniques\5-HybridSearch\37-Dense+And+Sparse+Retrieval.pdf
+H:\akash\git\RAG-Techniques\5-HybridSearch\40-Reranking.pdf
+H:\akash\git\RAG-Techniques\5-HybridSearch\42.1-MMR.pdf
+H:\akash\git\RAG-Techniques\6-QueryEnhancement\45-Query+Expansion+Technique.pdf
+H:\akash\git\RAG-Techniques\6-QueryEnhancement\47-Query+Decomposition.pdf
+H:\akash\git\RAG-Techniques\6-QueryEnhancement\48-HyDE+Technique.pdf
+H:\akash\git\RAG-Techniques\7-Langgraph\3-.pdf
+H:\akash\git\RAG-Techniques\7-Langgraph\13-Chains+Part+1 (1).pdf
+H:\akash\git\RAG-Techniques\7-Langgraph\13.1-Router+.pdf
+H:\akash\git\RAG-Techniques\7-Langgraph\14-tool.pdf
+H:\akash\git\RAG-Techniques\7-Langgraph\15-ChatwithMultipletools+(1) (1).pdf
+H:\akash\git\RAG-Techniques\8-ReactAgents\18-Agents.pdf
+H:\akash\git\RAG-Techniques\9. AgenticRAG\35-39-RAGS.pdf
+H:\akash\git\RAG-Techniques\10. AutonomousRaAG\78-83-Autonomousrag.pdf
+H:\akash\git\RAG-Techniques\11. MultiagentRAG\83-86-Multiagent+RAG.pdf
+H:\akash\git\RAG-Techniques\12.CorrectiveRAG\37.1-Corrective+RAGs.pdf
+H:\akash\git\RAG-Techniques\13.AdaptiveRAG\35-39-RAGS+(1).pdf
+H:\akash\git\RAG-Techniques\16. RAG Evaluation\91-95+RAG+Evaluation.pdf
+H:\akash\git\RAG-Techniques\15. CAG RAG\89-90+CAG.pdf
